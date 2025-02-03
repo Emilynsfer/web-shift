@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=block" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Smart Web</title>
+</head>
+<body>
+    <div class="introducao">
+        <header>
+
+            <img src="imagens/logo.png" alt="Logo da Smart Web">
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#values">Diferenciais</a></li>
+                    <li><a href="#articles">Artigos</a></li>
+                </ul>
+            </nav>
+
+          <!--Menu mobile-->
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#values">Diferenciais</a></li>
+                        <li><a href="#articles">Artigos</a></li>
+                    </ul>
+                </nav>
+
+            </div> <!-- end of menu mobile -->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </header>
+
+        <div class="imagem-de-fundo">
+
+            <h3>Transformando desafios em oportunidades com soluções <br> inteligentes e inovadoras no universo digital, impulsionando seu negócio <br>para o futuro!</h3>
+            
+            <button><a href="https://wa.me/5198574836" target="_blank">Entre em contato!</a></button>
+            
+        </div>
+    </div>
+
+    <div class="sobre" id="about">
+       <img src="imagens/imagem-sobre.jpg" alt="imagem ilustrativa de uma moça usando o notebook">
+
+       
+        <p>Na Smart Web, transformamos desafios digitais em oportunidades de crescimento. <br>
+            Somos especialistas em criar soluções inovadoras e de alta performance,
+            alinhando <br> nossas habilidades em marketing e tecnologia para impulsionar o
+            sucesso do seu  <br>negócio. Nosso compromisso é potencializar sua marca e
+            promover um crescimento <br>exponencial através de serviços personalizados e
+            de qualidade.</p>
+    
+    </div>
+
+    <div class="servicos" id="services">
+        <h1>
+            Nossos serviços
+        </h1>
+        
+        <div class="container" id="services">
+            <div class="cartao">
+                <div class="frente" id="um">
+                    <h3>Serviços Web</h3>
+                </div>
+                <div class="verso">
+                    <p>Desenvolvimento de Sites profissionais, portfólios, landing pages, blogs e mais.</p>
+                </div>
+            </div>
+            
+            <div class="cartao">
+                <div class="frente" id="dois">
+                    <h3>Serviços de Desenvolvimento</h3>
+                </div>
+    
+                <div class="verso">
+                    <p>Desenvolvimento de sistemas personalizados para o seu negócio com integração de Inteligência Artificial.</p>
+                </div>
+            </div>
+
+            <div class="cartao"> 
+                <div class="frente" id="tres">
+                    <h3>Serviços de Manutenção</h3>
+                </div>
+    
+                <div class="verso">
+                    <p>Serviços de manutenção em sites existentes, e manutenção garantida por 3 meses de forma gratuita para sites desenvolvidos pela Smart Web.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="valores" id="values">
+        <h1>Nossos valores</h1>
+
+            <div class="diferenciais">
+                <div class="layout">
+                    <div class="valor">
+                        <h1>01</h1>
+                        <h3>Inovação</h3>
+                        <p>Buscamos sempre as soluções mais modernas e criativas para nossos clientes.</p>
+                    </div>
+            
+                    <div class="valor">
+                        <h1>02</h1>
+                        <h3>Transparência</h3>
+                        <p>Mantemos uma comunicação clara e honesta em todos os projetos.</p>
+                    </div>
+            
+                    <div class="valor">
+                        <h1>03</h1>
+                        <h3>Comprometimento</h3>
+                        <p>Estamos 100% dedicados ao sucesso do seu negócio.</p>
+                    </div>
+            
+                    <div class="valor">
+                        <h1>04</h1>
+                        <h3>Sustentabilidade Digital</h3>
+                        <p>Criamos soluções que acompanham o crescimento e as mudanças do mercado digital.</p>
+                    </div>
+                </div>
+
+                    <div class="imagem">
+                        <img src="imagens/valores.jpg" alt="">
+                    </div>
+            </div>
+    </div>
+
+    <div class="artigos" id="articles">
+        <h1>Artigos</h1>
+
+        <div class="nossos-artigos">
+            <div class="artigo">
+                <img src="imagens/imagem-artigo-um.webp" alt="">
+                <h3>Salesforce Einstein</h3>
+                <p>O tópico Inteligência artificial está no foco dos holofotes de novo como era o esperado. Entretanto, o ano está só começando, espera-se que novas tecnologias recebam atenção nessa mesma proporção até o final desse ano. Enquanto isso não acontece, vamos nos atualizar sobre o tema das IAs e como elas podem agregar valor aos nossos serviços.
+                    Neste post eu irei apresentar a IA utilizada na plataforma SalesForce, chamada Einstein.</p>
+
+                    <a href="https://dio.me/articles/salesforce-einstein-a-inteligencia-artificial-integrada-ao-salesforce" target="_blank">Continuar lendo</a>
+            </div>
+
+            <div class="artigo">
+                <img src="imagens/empreendedorismo.webp" alt="">
+                <h3>Empreendedorismo Digital</h3>
+                <p>O empreendedorismo não é nenhuma novidade, há anos esse assunto ficou popular e ganhou força ao redor do mundo. Atualmente, muitas universidades possuem pelo menos uma cadeira sobre empreendedorismo, com o objetivo de informar e talvez inspirar os universitários a se tornarem empreendedores. </p>
+                <a href="https://dio.me/articles/empreendedorismo-digital" target="_blank">Continuar lendo</a>
+            </div>
+
+            <div class="artigo">
+                <img src="imagens/imagem-tre.webp" alt="">
+                <h3>2025 é o ano das oportunidades</h3>
+                <p>Refletir sobre nossos objetivos é muito importante, e no início do ano parece que as oportunidades são sempre melhores. Particularmente eu já estou percebendo uma mudança muito positiva no mercado de trabalho, que em 2024 não estava muito acessível para profissionais de nível júnior ou estagiários.</p>
+                <a href="https://dio.me/articles/2025-e-o-ano-das-oportunidades" target="_blank">Continuar lendo</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <img src="imagens/logo.png" alt="">
+
+        <a href="https://www.instagram.com/smartweb_2025/" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/emilynsfer013/" target="_blank">Linkedin</a>
+        <a href="mailto:smart.web2025#gmail.com" target="_blank">E-mail</a>
+        <a href="https://wa.me/5198574836" target="_blank">WhatsApp</a>
+    </footer>
+</body>
+</html>
