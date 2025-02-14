@@ -7,12 +7,12 @@
 
 
 .introducao {
-    background-color: #130266;
+    background-color: black;
     height: 700px;
 }
 
 header {
-    background-color: #130266;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,16 +38,17 @@ header a {
 }
 
 header a:hover {
-    color: gray;
+    color: #807A00;
     transform: scale(1.08);
 }
 
 #btn-menu {
-    color: white;
+    display: none;
+
 }
  
 .menu-mobile{
-     background-color: #130266;
+     background-color: black;
      height: 100vh;
      position: fixed;
      top: 0;
@@ -103,7 +104,7 @@ header a:hover {
 }
 
 .imagem-de-fundo {
-    background-image: url(imagens/photo.jpg), linear-gradient(rgba(0, 0, 134, 0.4), rgba(0, 0, 255, 0.4));
+    background-color: #807A00;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
     text-align: center;
@@ -127,12 +128,12 @@ header a:hover {
 }
 
 .imagem-de-fundo button a {
-    color: #130266;
+    color: black;
     text-decoration: none;
 }
 
 .imagem-de-fundo button {
-    color: #4d2afa;
+    color: black;
     font-size: 15px;
     font-weight: bold;
     margin: 30px;
@@ -143,9 +144,9 @@ header a:hover {
 }
 
 .imagem-de-fundo button:hover {
-    box-shadow: 0px 0px 8px rgb(67, 8, 161);
+    box-shadow: 0px 0px 8px rgb(224, 221, 5);
     transform: scale(1.05);
-    color: darkblue;
+    color: black;
     transition: 0.5s;
 }
 
@@ -154,8 +155,13 @@ header a:hover {
     align-items: center;
 }
 
+.sobre span {
+    color: #807A00;
+    font-weight: bold;
+}
+
 .sobre img {
-    box-shadow: -40px 30px 0px #130266;
+    box-shadow: -40px 30px 0px #807A00;
     border: 2px solid white;
     border-radius: 10px;
     width: 250px;
@@ -173,7 +179,7 @@ header a:hover {
 }
 
 .servicos {
-    background-color: gray;
+    background-color: black;
     width: 100%;
 }
 
@@ -186,7 +192,7 @@ header a:hover {
 }
 
 .servicos h3 {
-    color: white;
+    color: black;
     padding: 10px;
     margin-bottom: 260px;
     border-radius: 8px;
@@ -216,8 +222,8 @@ header a:hover {
 }
 
 .frente {
-    background-color: #130266;
-    color: #130266;
+    background-color: #807A00;
+    color: #807A00;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,7 +234,7 @@ header a:hover {
 #um {
     background-image: url(imagens/servicoweb.jpg);
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 255, 0.2); /* Filtro azul com opacidade */
+    background-color: rgba(121, 129, 7, 0.397); /* Filtro azul com opacidade */
     background-blend-mode: overlay; /* Aplica a cor sobre a imagem */
     background-size: cover;
     background-position: -0px;
@@ -236,7 +242,7 @@ header a:hover {
 
 #dois {
     background-image: url(imagens/foto-dois.jpg);
-    background-color: rgba(0, 0, 255, 0.3); /* Filtro azul com opacidade */
+    background-color: rgba(121, 129, 7, 0.397); /* Filtro azul com opacidade */
     background-blend-mode: overlay; /* Aplica a cor sobre a imagem */
     background-repeat: no-repeat;
     background-size: cover;
@@ -246,14 +252,14 @@ header a:hover {
 #tres {
     background-image: url(imagens/photo-3.jpg);
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 255, 0.2); /* Filtro azul com opacidade */
+    background-color:rgba(121, 129, 7, 0.397);/* Filtro azul com opacidade */
     background-blend-mode: overlay; /* Aplica a cor sobre a imagem */
     background-size: cover;
     background-position: -0px;
 }
 
 .verso {
-    background-color: #130266;
+    background-color: #807A00;
     color: white;
     padding: 0 25px;
     transform: rotateY(180deg); /* Coloca o verso na posição oposta */
@@ -274,7 +280,7 @@ header a:hover {
 
 
 .valores {
-    background-color: #130266;
+    background-color: #807A00;
     text-align: center;
 }
 
@@ -287,12 +293,12 @@ header a:hover {
 }
 
 .valor {
-    background-color: #130266;
+    background-color: #807A00;
     margin: -5px;
 }
 
 .valor h1 {
-    color: gray;
+    color: black;
     margin-bottom: -15px;
     text-align: left;
     padding: 50px 30px;
@@ -332,7 +338,7 @@ header a:hover {
 }
 
 .artigos h1 {
-    color: #130266;
+    color: black;
     text-align: center;
     padding-top: 40px;
     text-decoration: underline;
@@ -352,28 +358,28 @@ header a:hover {
 
 
 .artigo {
-    border: 3px solid #130266;
-    box-shadow: 0 0 10px #130266;
+    border: 3px solid #807A00;
+    box-shadow: 0 0 10px #807A00;
     border-radius: 8px;
     height: 480px;
     width: 350px;
 }
 
 .artigo a {
-    color: #130266;
+    color: #807A00;
     padding-left: 30px;
     font-weight: bold;
     cursor: pointer;
 }
 
 .artigo h3 {
-    padding: 10px 0;
-    color: #130266;
+    padding: 50px 0;
+    color: #807A00;
 }
 
 .artigo p {
     justify-content: left;
-    padding: 30px;
+    padding: 10px 30px 40px 30px;
 }
 
 
@@ -389,7 +395,7 @@ footer {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color: #130266;
+    background-color: black;
     padding-top: 60px;
     height: 300px;
 }
@@ -402,7 +408,7 @@ footer a {
 }
 
 footer a:hover {
-    color: gray;
+    color: #807A00;
     transform: scale(1.08);
 }
 
@@ -412,31 +418,15 @@ footer img {
 
 
 @media (min-width: 768px) and (max-width: 1280px) {
-    .imagem-de-fundo {
-        background-position: center;
-        height: 400px; /* Ajusta a altura da imagem de fundo */
-        margin: 10px 20px;
-    }
-    
-    
-    .imagem-de-fundo h3 {
-        font-size: 30px; /* Tamanho do texto ajustado */
-        padding: 90px 30px 20px 30px; /* Ajuste do padding */
-    }
-
-}
-
-@media (min-width: 360px) and (max-width: 767px) {
 
     #btn-menu {
+        display: flex;
         color: white;
-        margin-right: 20px;
+        margin-right: 60px;
     }
 
     header {
         background-color: #130266;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         align-items: center;
         justify-content: space-between;
     }
@@ -452,14 +442,111 @@ footer img {
         font-size: 40px;
     }
 
-    .introducao {
-        height: 600px; /* Reduz a altura da seção para dispositivos móveis */
+    header nav ul {
+        display: flex;
+        flex-direction: column; 
+        padding: 0;
+        margin: 0;
+    }
+
+    header nav ul li {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    header a {
+        font-size: 18px; 
+        margin-bottom: 10px;
+    }
+
+    .imagem-de-fundo {
+        background-position: center;
+    }
+    
+    .imagem-de-fundo h3 {
+        padding-top: 120px;
+    }
+
+
+    
+    h1, h2, h3 {
+        font-size: 24px;  
+    }
+
+    .diferenciais {
+        display: grid;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+
+    .valor {
+        background-color: #807A00;
+        margin: 0;
+    }
+
+    
+    img {
+        max-width: 100%;  
+        height: auto;  
+    }
+
+    .nossos-artigos {
+        margin: 20px 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 530px;
+        justify-content: space-between;
+        padding-top: 70px;
+    }
+
+    footer {
+        margin-top: 600px;
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-color: #130266;
+        padding-top: 60px;
+        height: 300px;
+    }
+
+    footer img {
+        width: 100px;  /* Ajusta o tamanho das imagens do rodapé */
+    }
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+
+    #btn-menu {
+        display: flex;
+        color: white;
+        margin-right: 20px;
     }
 
     header {
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: space-between;
         flex-direction: column; /* Alinha logo e menu verticalmente */
         align-items: center;
         padding: 10px;
+    }
+
+    
+    header nav.menu-desktop {
+        display: none;
+    }
+
+    .btn-abrir-menu {
+        display: block;
+        color: black;
+        font-size: 40px;
+    }
+
+    .introducao {
+        height: 600px; /* Reduz a altura da seção para dispositivos móveis */
     }
 
     header img {
@@ -554,6 +641,9 @@ footer img {
         padding: 10px;
     }
 
+    .diferenciais {
+        background-color: #807A00;
+    }
     .valores h1 {
         font-size: 26px;
     }
@@ -561,6 +651,11 @@ footer img {
     .valor {
         width: 90%; /* Ajusta o tamanho das divs de valor */
         margin-bottom: 20px;
+        background-color: #807A00;
+    }
+
+    .valores {
+        background-color: #807A00;
     }
 
     .valor h1 {
@@ -597,7 +692,7 @@ footer img {
     }
 
     .artigo {
-        border: 6px solid #130266;
+        border: 6px solid #807A00;
         box-shadow: none;
         width: 80%; /* Ajusta o tamanho dos artigos */
         height: 800px;
@@ -614,7 +709,7 @@ footer img {
 
 
     .artigo a {
-        color: #130266;
+        color: #807A00;
         font-weight: bold;
         cursor: pointer;
     }
